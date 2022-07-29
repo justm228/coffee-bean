@@ -1,0 +1,622 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+}
+.wrapper{
+    width: 100%;
+    margin: auto;
+}
+/* Header Area */
+.nav{
+    overflow: auto;
+    width: 85%;
+    margin: 1em auto;
+}
+.nav h1{
+    text-transform: uppercase;
+    width: 50%;
+    float: left;
+}
+.nav h1 a{
+    color: #96746B;
+    text-decoration: none;
+}
+.nav ul{
+    width: 50%;
+    text-align: right;
+    padding-top: 1em;
+    float: left;
+}
+.nav ul li{
+    display: inline-block;
+    margin-left: 1em;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #312A26;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+/* Banner Area */
+.banner{
+    background-image: url('../images/banner-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 670px;
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 7.5%;
+    width: 45%;
+    transform: translateY(-50%);
+}
+.banner-text h2{
+    color: #C7A17A;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+.banner-text h2 span{
+    color: #96746B;
+}
+.banner-text p{
+    color: white;
+}
+.banner-text a{
+    text-decoration: none;
+    padding: 1em;
+    color: white;
+    background-color: #312A26;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-top: 1em;
+    display: inline-block;
+}
+/* Ads Area */
+.ads{
+    width: 85%;
+    margin: 4em auto;
+    overflow: auto;
+}
+.ads-items{
+    width: 48.5%;
+    float: left;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 3%;
+}
+.ads-item1{
+    background-image: url('../images/ads-img1.jpg');
+    margin-right: 3%;
+}
+.ads-item2{
+    background-image: url('../images/ads-img2.jpg');
+}
+.ads-text{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translateY(15%);
+    width: 40%;
+}
+
+.ads-text h3{
+    font-size: 2em;
+    color: white;
+    line-height: 1.2em;
+    text-shadow: 3px 3px 6px #312A26;
+
+}
+.ads-text a{
+    display: block;
+    font-family: 'Raleway' , sans-serif;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 1em;
+    text-shadow: 3px 3px 6px #312A26;
+    
+}
+
+
+.merch{
+    width: 85%;
+    margin: 4em auto;
+}
+
+.section-header{
+    text-align: center;
+}
+.section-header span{
+    font-family: 'Raleway'sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    color: #C7A17A;
+
+}
+.section-header h2{
+    text-transform: uppercase;
+    color: #312A26;
+
+}
+.section-header hr{
+    width: 25%;
+    margin: auto;
+    height: 2px;
+    background-color:#C7A17A ;
+}
+.merch-gallery{
+    overflow: auto;
+    margin-top: 2em;
+
+
+}
+.merch-items{
+    width: 24.25%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+.merch-items:nth-child(4),.merch-items:nth-child(8){margin-right: 0;}
+
+.merch-items img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+/* discount */
+.discount{
+    background-image: url('../images/discount-img.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 85%;
+    height: 300px;
+    position: relative;
+    display: block;
+    margin: 4em auto;
+    text-align: center;
+}
+
+.discount-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    text-align: center;
+}
+.discount-text h3{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px black;
+}
+.discount-text p{
+    color: white;
+    font-style: italic;
+}
+.discount-text span{
+    font-family: 'Raleway'sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    color: white;
+
+}
+
+.discount-text a{
+    text-decoration: none;
+    padding: 1em;
+    color: black;
+    background-color:rgba(255, 255, 255, 0.3);
+    font-weight: 10;
+    margin-top: 1em;
+    display: inline-block;
+}
+
+.dis-product{
+    width: 85%;
+    margin: 4em auto;
+}
+.section-body{
+    text-align: center;
+}
+.section-body span{
+    font-family: 'Oswald'sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    color: #C7A17A;
+}
+
+.section-body h2{
+    text-transform: uppercase;
+    color: #312A26;
+
+}
+.section-body hr{
+    width: 40%;
+    margin: auto;
+    height: 2px;
+    background-color:#C7A17A ;
+} 
+/* gallery */
+.m-sale-gallery{
+    overflow: auto;
+    margin-top: 2em;
+    
+}
+
+.m-sale-items{
+    width: 24.25%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+.m-sale-items:nth-child(4){margin-right: 0;}
+.m-sale-items img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+} 
+/*  */
+
+.info{
+    width: 100%;
+    margin: 4em auto;
+    overflow: auto;
+}
+
+.info-items{
+    width: 48%;
+    float: left;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 3%;
+}
+
+.info-item1{
+    background-image: url('../images/ads-img3.jpg');
+    margin-right: 3%;
+}
+.info-item2{
+    background-image: url('../images/ads-img4.jpg');
+}
+.info-item3{
+    background-image: url('../images/ads-img5.jpg');
+    margin-right: 3%;
+}
+.info-item4{
+    background-image: url('../images/ads-img6.jpg');
+
+}
+
+.info-text{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translateY(15%);
+    width: 40%;
+}
+.info-text h3{
+    font-size: 1.5em;
+    color: white;
+    line-height: 1.2em;
+    text-shadow: 3px 3px 6px #312A26;
+
+}
+
+.info-text a{
+    display: block;
+    font-family: 'Raleway' , sans-serif;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 1em;
+    text-shadow: 3px 3px 6px #312A26;
+}
+
+
+
+/*  */
+
+
+.form{
+    width: 100%;
+    margin: 4em auto;
+}
+
+.section-form{
+    text-align: center;
+}
+.section-form h2{
+    text-transform: uppercase;
+    color: #312A26;
+
+}
+.section-form hr{
+    width: 25%;
+    margin: auto;
+    height: 2px;
+    background-color:#C7A17A ;
+}
+.form1 input {
+    background-color: white;
+    height: 40px;
+    width: 100%;
+}
+.form1 legend{
+    font-size: 15px;
+    font-weight: 100;
+}
+.form1 p{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.form-items{
+    width: 48.5%;
+    float: left;
+    height: 600px;
+    background-position: center;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    padding: 3%;
+}
+.form1{
+    background-color: gainsboro;
+    margin-right: 0.5%;
+    text-align: left;
+    margin-bottom: 2%;
+    font-size: large;
+}
+
+.timechoice{
+    text-align: center;
+    font-size: 5px;
+}
+.timechoice input .radio{   
+    
+}
+
+.form2{
+    background-color: gainsboro;
+    margin-left: 0.5%;
+    text-align: center;
+}
+
+.form2 p{
+    font-weight: 100;
+    text-align: left;
+    font-weight: bold;
+
+}
+.form2 textarea{
+    width: 100%;
+    height: 180px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.card-info h2{
+    font-size: 20px;
+}
+
+.card-info img{
+    block-size: 30px;
+}
+
+.card-info p{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 4%;
+}
+.creditcard-info{
+    text-align: left;
+
+}
+.creditcard-info input{
+width: 100%;
+height: 35px;
+
+}
+
+.checkbox{
+    text-align: left;
+    font-weight: bold;
+}
+.submit input{
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color:#C7A17A ;
+    display: block;
+}
+
+
+
+.footer{
+    background-image: url(../images/footer-img.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.footer-contents{
+    width: 85%;
+    margin: auto;
+    overflow: auto;
+}
+
+.footer-widgets{
+    width: 24.25%;
+    float: left;
+    margin-left: 1%;
+
+}
+
+
+.footer-widgets:nth-child(4){
+    margin-right: 0%;
+
+}
+
+.footer-widgets h3{
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 6px #312A26;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.footer-widgets h4{
+    color: white;
+}
+.footer-widgets p{
+    color: #C7A17A;
+}
+
+.footer th,td{
+    color: white;
+    font-family: 'Raleway' sans-serif;
+    text-shadow: 3px 3px 3px #312A26;
+}
+
+.footer form *{
+    width: auto;
+}
+
+.footer-social{
+    color: white;
+    background-color:#312A26 ;
+    overflow: auto;
+    padding: 1em 7.5%;
+
+}
+
+.social-widget{
+    float: left;
+    width: 32.66%;
+    text-align: center;
+}
+.social-widget h3{
+    text-transform: uppercase;
+}
+
+.social-widget img {
+    width: 1.5em;
+    
+}
+
+
+
+
+
+
+
+
+
+/* 
+.footer{
+    width: 100%;
+    margin: 0;
+
+}
+.section-footer{
+    background-image: url(../images/footer-img.jpg);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    
+} */
+
+
+
+
+
+
+/* .reservation{
+    width: 85%;
+    margin: 4em auto;
+}
+form{
+    float: auto;
+}
+
+.form-group{
+    float: left;
+    margin-top: 2em;
+    background-color: #f2f2ff;
+    width: 49.5%;
+    border-radius: 5px;
+    padding: 2em;
+    height: 650px;
+}
+
+.form-group:nth-child(1){
+    margin-right: 1%;
+}
+
+form input, form label, form select, form textarea{
+    width: 100%;
+    font-family: 'Raleway'sans-serif;
+    padding: 1em;
+    margin-bottom: 1em;
+    display: inline-block;
+}
+
+form .radio{}
+form label{
+    font-weight: 700;
+    padding: 0;
+    margin-bottom: 0.5em;
+}
+.res-time{
+    text-align: center;
+}
+.res-time {
+    width: auto;
+}
+form p{
+    margin: 1em;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+form h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+form .image{
+    background-image: url(../images/reservation-cards.png);
+    background-size: contain;
+    width: 150px;
+    height: 30px;
+    margin: auto;
+}
+.res-agreement{
+    width: auto;
+    
+}
+form input[type="submit"]{
+        
+} */
